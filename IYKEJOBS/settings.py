@@ -45,6 +45,17 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+    'django_cleanup',
+    'django_countries',
+    'crispy_forms',
+    'django_filters',
+    'django_pwa',
+    'rest_auth',
+    'knox',
+    'storages',
+    'rest_framework',
+    'autoslug', 
+
 ]
 
 MIDDLEWARE = [
