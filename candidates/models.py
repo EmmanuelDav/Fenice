@@ -4,6 +4,7 @@ from django.utils import timezone
 from autoslug import AutoSlugField
 from django_countries.fields import CountryField
 from django.utils import timezone
+from recruiters.models import Job
 
 
 CHOICEs = (
