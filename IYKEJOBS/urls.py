@@ -29,7 +29,7 @@ urlpatterns = [
     path('account/', views.account, name='account'),
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
     path('', include('candidates.urls')),
-#   //  path('hiring/', include('recruiters.urls')),
+    path('hiring/', include('recruiters.urls')),
     path('', include('pwa.urls')),
     path('', TemplateView.as_view(template_name="index.html")),
 
